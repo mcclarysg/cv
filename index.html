@@ -1,63 +1,89 @@
+<!doctype html>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sean McClary</title>
-    <link rel="stylesheet" href="css\styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Oswald:wght@200&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+    <title></title>
+
+
+    <style>
+
+      table, td, th {border: 1px solid black}
+
+
+    </style>
   </head>
   <body>
-    <div class="top-container">
-      <img class="top-cloud"src="images\cloud.png" alt="cloud-img">
-      <h1> I'm Sean.</h1>
-      <p class="Web-Dev">A Web Developer</p>
-      <img class="bottom-cloud"src="images\cloud.png" alt="cloud-img">
-      <img src="images\mountain.png" alt="mountain.png">
+    <h1>Sean Favorite Foods</h1>
+    <table>
+      <tr>
+        <th>Foods</td>
+        <th>Position</td>
+      </tr>
 
-    </div>
+      <tr>
+        <td>Pizaa</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+        <td>Spagetti</td>
+        <td>2nd</td>
+      </tr>
+      <tr>
+        <td>Hamburgers</td>
+        <td>3rd</td>
+      </tr>
+      <tr>
+        <td>Chips</td>
+        <td>4th</td>
+      </tr>
 
-    <div class="middle-container">
-      <div class="profile">
-        <img src="images\Sean4.png" alt="Sean4-img">
-        <h2>Welcome!!</h2>
-        <p class="intro">I created this website using nothing but HTML and Css. I hope you enjoy browsing my portfolio and encourage you to provide me any constructive criticisms.</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Specialty.</h2>
-        <div class="skill-row">
-          <img class="SQL-skill"src="https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif" alt="SQL-skill">
-          <h3>My Core Fundamentals</h3>
-          <p>I started learning how to code when I was about 23 years old from a friend years ago.I found the experience learning less fun until I realized how much code is around us everyday.
-            I started becoming interested in the concept of building concepts with my ability to code. </p>
-        </div>
-        <div class="skill-row">
-      <img class="Html-skill" src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" alt="HTML-skill">
-      <img class="Css-skill"src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" alt="CSS-skill">
-      <img class="Bootstrap-skill"src="https://media.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.gif" alt="Bootstrap-skill">
-      <img class="Javascript-skill"src="https://media.giphy.com/media/dC3EHvqJ61hNReoxMV/giphy.gif" alt="Javascript-skill">
+    </table>
+      <h1> HTML Forms </h1>
 
 
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>How Did You Enjoy My Design?</h3>
-        <p class="contact-message">If you are interested in building a custom website or have questions feel free to contact me. </p>
-        <a class="btn" href="McClarysg@mymail.vcu.edu">CONTACT ME</a>
-      </div>
-    </div>
 
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/sean-gaskins-64ab4013b/">LinkedIn</a>
-      <a class="footer-link" href="https://www.facebook.com/sean.gaskins.7">Facebook</a>
-        <a class="footer-link" href="https://github.com/mcclarysg">Github</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p class="copyright">© 2021 Sean Gaskins McClary.</p>
-    </div>
+
+      <form name= "login" action="process-form.php" method="post">
+        username:
+        <input type="text" name="username">
+        password:
+        <input type="password" name="password" size="40">
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <input type="radio" name="fruit" value="apple">
+        <input type="radio" name="fruit" value="apple">
+
+
+
+
+
+        <textarea name="comments" rows="10" cols="30"></textarea>
+
+
+
+
+
+        <input type="submit">
+
+
+
+      </form>
+
+      <form name= "signup">
+
+
+
+
+      </form>
+
+
+
 
 
   </body>
