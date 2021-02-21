@@ -88,6 +88,7 @@
     transform: rotate(30deg);
   }
 
+
   .product-device::before {
     position: absolute;
     top: 10%;
